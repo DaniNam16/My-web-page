@@ -1,0 +1,129 @@
+.ubuntu {
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 700;
+}
+
+.button {
+	background-color: #EE4D47;
+	border-radius: 5px;
+	padding: 20px 24px 21px 24px;
+}
+
+.wrapper {
+	max-width: 1108px;
+	width: 100%;
+	margin: 0 276px 0 240px;
+}
+
+.logo {
+	font-size: 32px;
+}
+
+body {
+	letter-spacing: 0;
+	background-color: #FEF8F5;
+	color: white;
+	background-repeat: no-repeat;
+	background-image: url('img/PeopleTrackCity.svg');
+}
+
+nav {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin: 50px 0 0 0;
+}
+
+nav span img {
+	margin: 0 28px 0 0;
+}
+
+
+
+nav div {
+	display: flex;
+	max-width: 580px;
+	width: 100%;
+	align-items: center;
+	justify-content: space-between;
+}
+
+a {
+	text-transform: uppercase;
+	font-size: 16px;
+	text-decoration: none;
+	color: white;
+}
+
+a img {
+	margin: 0 0 0 24px;
+}
+
+h1 {
+	font-size: 100px;
+	max-width: 741px;
+	width: 100%;
+	text-align: left;
+	margin: 90px 0 81px 0;
+}
+
+main {
+	margin: 700px 0 0 0;
+}
+
+h3 {
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 700;
+	font-size: 24px;
+	text-transform: uppercase;
+	margin: 0 0 40px 0;
+	color: #EE4D47;
+}
+
+main p {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 18px;
+	line-height: 40px;
+	color: #402B2B;
+}
+
+.withBG {
+	background-repeat: no-repeat;
+	font-size: 24px;
+	background-image: url('img/SomeTextBG.svg');
+	padding: 25px 55px 75px 55px;
+}
+
+.ForAboutUs {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.ForHowToApply {
+	margin: 0 0 0 121px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+footer {
+	margin-top: 80px;
+	height: 80px;
+	background-color: #4f4f4f;
+}
+
+footer .wrapper {
+	height: 80px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+footer div {
+	color: #6e6e6e;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 25px;
+}
